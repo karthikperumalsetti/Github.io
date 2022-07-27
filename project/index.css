@@ -1,0 +1,404 @@
+/* Home */
+
+
+.demo{
+ 
+    width: auto;
+    /* position: absolute; */
+    top: calc(40% - 100px);
+    right: 5%;
+    }
+.demo img{
+    height: 430px;
+    width: 350px;
+    padding-top: 20px;
+
+    }
+#content{
+    height: 600px;
+    width: 700px;
+    /* position: absolute; */
+    left: 10%;
+    top: calc(40% - 100px);
+    }
+#cot{
+    border: 1px solid rgb(140, 17, 198);
+    width: 150px;
+    border-radius: 5px;
+    }
+b{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+/* navbar */
+.navbar-toggler{
+    color: greenyellow;
+    background: #ec1e1e;
+}
+.navbar{
+    height: 70px;
+    position: fixed;
+    box-shadow: 3px 3px white;
+    /* width: 100vh; */
+    background:linear-gradient(black,rgb(28, 2, 31),black); 
+    z-index: 1;
+    
+    } 
+
+.abc{
+    position: relative;
+    padding-top: 100px;
+    }
+.navbar:hover{
+    font-size: 20px;
+    color: greenyellow;
+    }
+
+
+.nav-item:hover{
+        
+        font-size: 20px;
+        color: chartreuse;
+        border-bottom: 1px solid white;
+    
+    }
+
+.navbar-brand{
+    font-size: 30px;
+    color:white;
+    background-image: linear-gradient(red,yellow,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+.nav-link{
+color: white;
+    }
+.nav-link:hover{
+    color: red;
+    }
+ 
+
+/* content */
+.white{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hii{
+    padding-top: 100px;
+
+    }
+#aaa{
+    /* height: 650px; */
+    background:linear-gradient(orange,rgb(184, 58, 20),rgb(68, 17, 162));
+    color: aliceblue;
+    }
+/* h1 animation */
+.ani{
+    background-color: blue;
+    font-size: 25px;
+    color: lime;
+    animation-name:demo;
+    animation-duration:5s;
+    justify-content: center;
+    animation-iteration-count: infinite;
+    }
+@keyframes demo{
+    0%{
+        background-color:black;
+        font-size: 30px;
+        color: aliceblue;
+    }
+    20%{
+        background-color: forestgreen;
+        font-size: 35px;
+        color: red;
+    }
+    40%{
+        background-color:blue;
+        font-size: 40px;
+        color:chartreuse;
+    }
+    60%{
+        background-color:aqua ;
+        font-size: 45px;
+        color:black;
+    }
+    80%{
+        background-color:yellow ;
+        font-size: 40px;
+    
+    }
+    100%{
+        background-color: seashell;
+        font-size: 35px;
+    }
+    }
+    .php{
+        color: aqua;
+        text-shadow: 3px 3px black;
+        font-size: 30px;
+    }
+    /* animation end */
+
+/* about */
+.color{
+    color: aliceblue;
+}
+.ac{
+    padding-top: 100px;
+    color:red;
+    }
+.ac:hover{
+    color:chartreuse;
+    }
+
+#textcolor{
+    background-image: linear-gradient(rgb(0, 255, 76),#bcff00,rgb(255, 0, 0),rgb(255, 0, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+    }
+#con img{
+   
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+#con{
+    background-image: url("./img/about-01.jpeg") ;
+    filter: blur(10%);
+    
+    width: 100%;
+    }
+.btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* portfolio */
+#portfolio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+    }
+#carouselExampleControls{
+    width:60%;
+    height: auto;
+    margin: 5px;
+    }
+.folio{
+    background-color:rgb(229, 179, 30);
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow:2px 2px white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .folio:hover{
+        animation-name:cse;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes cse{
+        0%{
+            background-color:rgb(183, 102, 35);
+        }
+        20%{
+            background-color: rgb(175, 178, 7);
+        }
+        40%{
+            background-color:rgb(37, 109, 17);
+        }
+        60%{
+            background-color:rgb(45, 190, 190) ;
+        }
+        80%{
+            background-color:rgb(27, 128, 218) ;
+        }
+        100%{
+            background-color: rgb(25, 110, 176);
+        }
+    }
+.hea:hover{
+    color: aqua;
+    }
+/* contact */
+#contact{
+         background: rgb(5, 5, 62); 
+         color:whitesmoke;
+         padding-top:100px ;
+        padding-bottom: 50px;
+    }
+#blue{
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(5, 5, 62) !important; 
+    }
+input{
+background:none;
+border: none;
+border-bottom: 1px solid rgb(247, 239, 239);
+color: #07ff39;
+    }
+::placeholder{
+    color: white;
+    text-decoration-color:none ;
+    opacity: 1;
+    }
+.jeep{
+    font-size: 30px;
+    }
+#msg{
+    height: 100px;
+    color: rgb(17, 255, 0);
+    }
+.with{
+    background-color: rgba(42, 1, 106, 0.844);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: aliceblue;
+    }
+.with:hover{
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius:5px;
+    color: black;
+    }
+.red:hover{
+    color: orangered;
+    text-shadow:  3px 3px rgb(68, 19, 6);
+
+    }
+.one{
+    padding-top:50px ; 
+    }
+
+#kkk{
+    padding-top: 50px;
+    padding: auto;
+    }
+
+
+/* service */
+#service{
+    
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    background-color:rgb(16, 26, 24);
+    transition:ease-in 5s;
+    }
+#service:hover{
+    background:linear-gradient(rgb(0, 200, 255),rgb(102, 255, 0),rgba(255, 230, 0, 0.955));
+    }
+#service h2{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 50px;
+    }
+#service h2:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    text-shadow: 3px 3px rgb(6, 74, 43);
+    }
+
+/* preloader */
+#preloader{
+    background:black url(./img/preload.gif) no-repeat center center;
+    position: fixed;
+    animation-duration: 10s;
+    
+    height: 100vh;
+    width: 100%;
+    z-index: 50;
+    
+}
+
+/* responsive */
+@media only screen and (min-width:100px) and (max-width:500px) {
+        .tit{
+            font-size: 20px;
+        }    
+        .php{
+            font-size: 20px;
+        }
+        b{
+            font-size: 15px;
+        }
+        .hii{
+            padding-top: 0px;
+        }
+        .demo img{
+            height: 250px;
+            width: 215px;
+            
+        }
+        #bot{
+            font-size: 15px;
+        }
+        #blue{
+            text-align: center;
+            padding-left: 15px;
+            padding-top: 25px;
+            padding-bottom: 25px; 
+        }
+        #port .hea{
+            font-size: 20px;
+        }
+        #port h4{
+            font-size: 20px;
+        }
+        #port p{
+            font-size: 15px;
+        }
+    
+        .color {
+            font-size: 20px;
+        }
+        #textcolor {
+            font-size: 15px;
+        }
+        .bx{
+            text-align: center;
+            align-items: center;
+        }
+        #con img{
+            padding-top: 50px;
+            
+        }
+        #info{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .one{
+            text-align: center;
+        }
+        .ac{
+            padding-top: 40px;
+        }
+        #carouselExampleControls {
+            width: 250px;
+            height: auto;
+        }
+        .icon{
+            padding-left: 36px;
+        }
+        .red{
+            padding-right: 10px;
+        }
+        #number{
+            padding-right: 102px;
+        }
+        #info address{
+            padding-right: 87px;
+        }
+    
+}
+
